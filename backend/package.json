@@ -1,0 +1,24 @@
+{
+    "name": "plantation-management-api",
+    "version": "1.0.0",
+    "description": "API para gerenciamento funcionários e suas vendas",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "author": "Gabriel de Santana",
+    "license": "MIT",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "express": "^4.21.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^7.8.1",
+        "plantation-management-api": "file:",
+        "punycode": "^2.3.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
