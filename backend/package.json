@@ -1,5 +1,5 @@
 {
-    "name": "plantation-management-api",
+    "name": "gestao-vendas",
     "version": "1.0.0",
     "description": "API para gerenciamento funcionários e suas vendas",
     "main": "app.js",
@@ -13,9 +13,9 @@
         "bcryptjs": "^2.4.3",
         "cors": "^2.8.5",
         "express": "^4.21.0",
+        "gestao-vendas": "file:",
         "jsonwebtoken": "^9.0.2",
         "mongoose": "^7.8.1",
-        "plantation-management-api": "file:",
         "punycode": "^2.3.1"
     },
     "devDependencies": {
